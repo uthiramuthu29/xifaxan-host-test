@@ -1,0 +1,1129 @@
+section.caregiver-banner {
+    background: url('/siteassets/img/banner-1920x847-home-xifaxan-he-overlay.webp'), url('/siteassets/img/banner-1920x660-caregiver-corner.webp');
+    background-size: 100% 100%, cover;
+    background-position: left, center;
+    background-repeat: no-repeat, no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-bottom: 20px solid #838915;
+
+
+
+
+    .banner-quote-mark {
+        position: absolute;
+        background-color: white;
+        width: 330px;
+        top: 23%;
+        right: 0;
+        padding: 18px 30px 18px 60px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        clip-path: polygon(30px 0, 100% 0, 100% 100%, 0 100%);
+        opacity: 0.9;
+
+
+        p {
+            font-size: 20px;
+            line-height: 28px;
+            color: #0059B4;
+            font-family: $Raleway;
+            font-weight: 900;
+            font-style: italic;
+            letter-spacing: 1px;
+
+
+            span {
+                line-height: 26px;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .banner-content {
+        margin-top: 85px;
+        padding: 0;
+
+
+        h2 {
+            font-size: 36px;
+            line-height: 40px;
+            color: white;
+            font-family: $Raleway;
+            font-weight: 700;
+            padding-top: 25px;
+        }
+
+        h1 {
+            font-size: 48px;
+            line-height: 50px;
+            color: white;
+            font-family: $Raleway;
+            font-weight: 900;
+            border-bottom: 1px solid white;
+            text-transform: uppercase;
+            max-width: 500px;
+            padding-bottom: 30px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 27px;
+            color: white;
+            font-family: $Raleway;
+            font-weight: 500;
+            margin-top: 30px;
+            margin-bottom: 53px;
+            max-width: 500px;
+        }
+
+
+        .learn-more {
+            margin-bottom: 85px;
+
+            a {
+                font-size: 22px;
+                line-height: 26px;
+                color: #0073B9;
+                font-family: $Raleway;
+                font-weight: 700;
+                background: white;
+                border: 2px solid #838915;
+                padding: 20px 50px;
+                border-radius: 10px;
+                text-decoration: none;
+
+                &:hover {
+                    color: white;
+                    background: #838915;
+                }
+            }
+        }
+    }
+}
+
+#track-their-symptoms {
+    background: #0073B9;
+    padding-top: 108px;
+    padding-bottom: 0px;
+
+    .track-their-symptoms {
+        .left {
+            position: relative;
+
+            img {
+                margin-bottom: 50px;
+                width: 600px;
+            }
+
+            .he-symptoms-checklist {
+                display: flex;
+                background: #0059B4;
+                padding: 18px 33px 55px 33px;
+                position: relative;
+                top: 30px;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    left: -1px;
+                    bottom: -1px;
+                    height: 50px;
+                    width: 200px;
+                    background-color: #F4F4F4;
+                }
+
+                .image-area {
+
+                    img {
+                        max-width: 114px;
+                    }
+                }
+
+                .content-area {
+                    padding-left: 15px;
+
+                    h3 {
+                        font-size: 32px;
+                        line-height: 38px;
+                        color: white;
+                        font-family: $Raleway;
+                        font-weight: 700;
+                    }
+
+                    p {
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: white;
+                        font-family: $Raleway;
+                        font-weight: 500;
+                        margin-bottom: 35px;
+                    }
+
+                    a {
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #0073B9;
+                        font-family: $Raleway;
+                        font-weight: 700;
+                        background: white;
+                        border: 2px solid #838915;
+                        text-decoration: none;
+                        padding: 15px 50px;
+                        border-radius: 13px;
+                        margin-left: 55px;
+                        margin-bottom: 40px;
+
+                        &:hover {
+                            color: white;
+                            background: #838915;
+                        }
+                    }
+                }
+            }
+        }
+
+        .right {
+            padding-left: 62px;
+
+            .symptoms-he-right-content-1 {
+                h2 {
+                    font-size: 47px;
+                    line-height: 57px;
+                    color: white;
+                    font-family: $Raleway;
+                    font-weight: 700;
+                    margin-bottom: 30px;
+                    background: #838915;
+                    position: relative;
+                    padding: 18px 50px;
+                    max-width: 600px;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        left: -1px;
+                        top: 75px;
+                        height: 20px;
+                        width: 35px;
+                        background-color: #0073B9;
+                    }
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        right: -1px;
+                        top: 0px;
+                        height: 20px;
+                        width: 35px;
+                        background-color: #0073B9;
+                    }
+                }
+
+                p {
+                    margin-bottom: 20px;
+                }
+
+                ul {
+                    margin-bottom: 20px;
+                }
+
+                p, ul > li {
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: white;
+                    font-family: $Raleway;
+                    font-weight: 500;
+                    list-style-type: disc;
+                }
+            }
+
+            .symptoms-he-right-content-2 {
+                h2 {
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: white;
+                    font-family: $Raleway;
+                    font-weight: 900;
+                    margin-bottom: 26px;
+                }
+
+                .mental-physical {
+                    margin-bottom: 42px;
+
+                    .mental, .physical {
+                        img {
+                            margin-bottom: 24px;
+                        }
+
+                        h4 {
+                            font-size: 30px;
+                            line-height: 36px;
+                            color: white;
+                            font-family: $Raleway;
+                            font-weight: 700;
+                            margin-bottom: 6px;
+                        }
+
+                        ul {
+                            li {
+                                font-size: 20px;
+                                line-height: 28px;
+                                color: white;
+                                font-family: $Raleway;
+                                font-weight: 500;
+                                list-style-type: disc;
+                            }
+                        }
+                    }
+
+                    .mental {
+                        img {
+                            width: 114px;
+                        }
+                    }
+
+                    .physical {
+                        img {
+                            width: 88px;
+                        }
+                    }
+                }
+
+                p {
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: white;
+                    font-family: $Raleway;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    .hear-from-he {
+        padding-top: 135px;
+        padding-bottom: 90px;
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+
+            .hear-he-head {
+                h2 {
+                    font-size: 48px;
+                    line-height: 52px;
+                    color: white;
+                    font-family: $Raleway;
+                    font-weight: 700;
+                    background: #838915;
+                    padding: 20px 30px;
+                    max-width: 550px;
+                    position: relative;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        left: -1px;
+                        top: 97px;
+                        height: 47px;
+                        width: 8px;
+                        background-color: #0073B9;
+                    }
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        right: -1px;
+                        top: 97px;
+                        height: 47px;
+                        width: 96px;
+                        background-color: #0073B9;
+                    }
+                }
+            }
+
+            .j-blk-btn-sec {
+                margin-bottom: 0;
+                margin-top: 40px;
+
+                .j-btn {
+
+                    a {
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #0073B9;
+                        font-family: $Raleway;
+                        font-weight: 700;
+                        background: white;
+                        border: 2px solid #838915;
+                        border-radius: 10px;
+                        margin-right: 0;
+                        text-decoration: none;
+
+                        &:hover {
+                            color: white;
+                            background: #838915;
+                        }
+                    }
+                }
+            }
+        }
+
+        .right {
+            img {
+                max-width: 388px;
+            }
+        }
+    }
+
+    .download-checklist {
+        background: #0059B4;
+        padding: 36px 45px 33px 81px;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: -1px;
+            top: 135px;
+            height: 55px;
+            width: 35px;
+            background-color: #0073B9;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            right: -1px;
+            top: -1px;
+            height: 110px;
+            width: 30px;
+            background-color: #0073B9;
+        }
+
+        .left {
+            padding-left: 0px;
+
+            img {
+            }
+        }
+
+        .right {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .download-checklist-content {
+                font-size: 20px;
+                line-height: 24px;
+                color: white;
+                font-family: $Raleway;
+                max-width: 750px;
+
+                h2 {
+                    font-weight: 900;
+                    font-size: 20px;
+                    line-height: 24px;
+                    margin-bottom: 25px;
+                }
+
+                p {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+            }
+
+            .j-blk-btn-sec {
+                margin-bottom: 0;
+
+                .j-btn {
+                    a {
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 21px;
+                        background: white;
+                        border: 2px solid #838915;
+                        border-radius: 10px;
+                        color: #0073B9;
+                        padding: 15px 50px;
+                        text-decoration: none;
+                        margin-right: 0;
+
+                        &:hover {
+                            color: white;
+                            background: #838915;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+section.create-management-HE-kit-flashcard {
+    background: url('/siteassets/img/img-2059x1532-bubble-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: -100px;
+    padding-top: 185px;
+    padding-bottom: 105px;
+
+    .create-management {
+        .create-management-badge-1 {
+            .white-Bg-bnr {
+                .bg-title-background {
+                    .container-width {
+                        .bg-title-heading {
+                            h2 {
+                                font-size: 48px;
+                                line-height: 57px;
+                                color: white;
+                                font-family: $Raleway;
+                                font-weight: 700;
+                                background: #838915;
+                                padding: 25px 50px;
+                                position: relative;
+                                max-width: 980px;
+                                margin-bottom: 55px;
+
+                                &::before {
+                                    content: '';
+                                    position: absolute;
+                                    left: -1px;
+                                    bottom: -1px;
+                                    height: 30px;
+                                    width: 26px;
+                                    background-color: #FBFBFB;
+                                }
+
+                                &::after {
+                                    content: '';
+                                    position: absolute;
+                                    right: -1px;
+                                    top: -1px;
+                                    height: 18px;
+                                    width: 170px;
+                                    background-color: #FBFBFB;
+                                }
+                            }
+
+                            p {
+                                font-size: 20px;
+                                line-height: 24px;
+                                color: #4D4D4D;
+                                font-family: $Raleway;
+                                font-weight: 500;
+                                margin-bottom: 30px;
+                            }
+                        }
+                    }
+                }
+
+                .container-width {
+                    .imagetitlecrd {
+                        &:nth-child(1) {
+                            .card-new {
+                                .bg-card-middle-header {
+                                    a {
+                                        img {
+                                            width: 96px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            .card-new {
+                                .bg-card-middle-header {
+                                    a {
+                                        img {
+                                            width: 100px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &:nth-child(3) {
+                            .card-new {
+                                .bg-card-middle-header {
+                                    a {
+                                        img {
+                                            width: 122px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .create-management-badge-2 {
+            .white-Bg-bnr {
+                .container-width {
+                    .imagetitlecrd {
+                        &:nth-child(1) {
+                            .card-new {
+                                .bg-card-middle-header {
+                                    a {
+                                        img {
+                                            width: 208px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            .card-new {
+                                .bg-card-middle-header {
+                                    a {
+                                        img {
+                                            width: 140px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .create-management-badge-1, .create-management-badge-2 {
+            .white-Bg-bnr {
+                .container-width {
+                    .imagetitlecrd {
+                        .card-new {
+                            background: transparent;
+                            box-shadow: unset;
+                            justify-content: center;
+
+                            .bg-card-header, .bg-card-middle-text {
+                                display: none;
+                            }
+
+                            .bg-card-middle-header {
+                                a {
+                                    text-decoration: none;
+
+                                    img {
+                                        margin: auto;
+                                    }
+
+                                    p {
+                                        font-size: 20px;
+                                        line-height: 30px;
+                                        color: #0073B9;
+                                        font-family: $Raleway;
+                                        font-weight: 500;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .he-kit-flashcard {
+        padding-top: 110px;
+        #he-living-kit-outer {
+            .container {
+                width: 44%;
+
+                .he-living-kit {
+                    background: #0073B9;
+                    padding: 33px 65px 33px 75px;
+                    position: relative;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        left: -1px;
+                        bottom: -1px;
+                        height: 111px;
+                        width: 35px;
+                        background-color: #FBFBFB;
+                    }
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        right: -1px;
+                        top: -1px;
+                        height: 120px;
+                        width: 30px;
+                        background-color: #FBFBFB;
+                    }
+
+                    .left {
+                        img {
+                            width: 140px;
+                        }
+                    }
+
+                    .right {
+                        h2 {
+                            font-size: 32px;
+                            line-height: 38px;
+                            color: white;
+                            font-family: $Raleway;
+                            font-weight: 700;
+                        }
+
+                        p {
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: white;
+                            font-family: $Raleway;
+                            font-weight: 500;
+                        }
+
+                        .j-blk-btn-sec {
+                            margin-top: 20px;
+                            justify-content: end;
+                            margin-bottom: 0px;
+
+                            .j-btn {
+                                a {
+                                    font-size: 18px;
+                                    line-height: 21px;
+                                    color: #0073B9;
+                                    font-family: $Raleway;
+                                    font-weight: 700;
+                                    background: white;
+                                    border: 2px solid #838915;
+                                    border-radius: 12px;
+                                    margin-right: 0;
+                                    padding: 15px 20px;
+                                    text-decoration: none;
+
+                                    &:hover {
+                                        color: white;
+                                        background: #838915;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    section.caregiver-banner {
+        background: url('/siteassets/img/banner-320x289-caregiver.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 289px;
+        border-bottom: none;
+
+        .banner-quote-mark {
+            padding: 9px 9px 9px 30px;
+            width: 160px;
+
+
+            p {
+                font-size: 8px;
+                line-height: 11px;
+
+
+                span {
+                }
+            }
+        }
+    }
+
+    section.caregiver-banner-mobile {
+        background: #0074BF;
+        border-bottom: 12px solid #838915;
+
+        .banner-content {
+            padding-top: 21px;
+            padding-bottom: 33px;
+
+            h1 {
+                font-size: 18px;
+                line-height: 24px;
+                color: white;
+                font-family: $Raleway;
+                font-weight: 900;
+                padding-bottom: 20px;
+                border-bottom: 1px solid white;
+                text-transform: uppercase;
+
+                span {
+                    font-weight: 300;
+                }
+            }
+
+            h2 {
+                font-size: 16px;
+                line-height: 18px;
+                color: white;
+                font-family: $Raleway;
+                font-weight: 900;
+                margin-top: 20px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 18px;
+                color: white;
+                font-family: $Raleway;
+                font-weight: 500;
+                margin-top: 20px;
+                margin-bottom: 20px;
+
+                a {
+                    color: white;
+                    text-decoration: underline;
+                }
+            }
+
+
+            .learn-more {
+                margin-bottom: 23px;
+                text-align: center;
+
+                a {
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #0073B9;
+                    font-family: $Raleway;
+                    font-weight: 700;
+                    background: white;
+                    border: 2px solid #838915;
+                    padding: 10px 50px;
+                    border-radius: 10px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    #track-their-symptoms {
+        padding-top: 41px;
+        padding-bottom: 60px;
+
+        .track-their-symptoms {
+            .left {
+
+                img {
+                }
+            }
+
+            .right {
+                padding-left: 12px;
+
+                .symptoms-he-right-content-1 {
+                    h2 {
+                        font-size: 21px;
+                        line-height: 24px;
+                        padding: 10px 16px;
+                        max-width: 250px;
+
+                        &::before {
+                            content: none;
+                        }
+
+                        &::after {
+                            content: none;
+                        }
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 18px;
+                    }
+
+                    ul {
+                    }
+
+                    p, ul > li {
+                    }
+                }
+
+                .symptoms-he-right-content-2 {
+                    h2 {
+                        font-size: 16px;
+                        line-height: 18px;
+                    }
+
+                    .mental-physical {
+                        .mental, .physical {
+                            .mental-img, .physical-img{
+                                text-align: center;
+                                img {
+
+                                }
+                            }
+
+                            h4 {
+                                font-size: 18px;
+                                line-height: 18px;
+                            }
+
+                            ul {
+                                li {
+                                    font-size: 16px;
+                                    line-height: 20px;
+                                }
+                            }
+                        }
+
+                        .mental {
+                            img {
+                            }
+                        }
+
+                        .physical {
+                            margin-top: 35px;
+                            img {
+                            }
+                        }
+                    }
+                }
+
+                .he-symptoms-checklist {
+                    .image-area {
+                        text-align: center;
+                        img {
+                            width: 91px;
+                            margin-top: 12px;
+                            margin-bottom: 15px;
+                        }
+
+                        h3 {
+                            font-size: 21px;
+                            line-height: 24px;
+                            color: white;
+                            font-family: $Raleway;
+                            font-weight: 700;
+                            text-align: left;
+                        }
+                    }
+
+                    .content-area {
+                        text-align: center;
+
+                        p {
+                            font-size: 16px;
+                            line-height: 18px;
+                            color: white;
+                            font-family: $Raleway;
+                            font-weight: 500;
+                            margin-bottom: 30px;
+                            text-align: left;
+                        }
+
+                        a {
+                            font-size: 16px;
+                            line-height: 18px;
+                            color: #0073B9;
+                            font-family: $Raleway;
+                            font-weight: 700;
+                            background: white;
+                            border: 2px solid #838915;
+                            padding: 10px 25px;
+                            border-radius: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section.create-management-HE-kit-flashcard {
+        margin-top: -12px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+
+        .create-management {
+
+            .create-management-badge-1 {
+
+
+                .white-Bg-bnr {
+                    .bg-title-background {
+                        .container-width {
+                            .bg-title-heading {
+                                h2 {
+                                    font-size: 21px;
+                                    line-height: 24px;
+                                    margin-bottom: 35px;
+                                    padding: 10px 16px;
+                                    max-width: 235px;
+
+                                    &:before {
+                                        width: 6px;
+                                        height: 23px;
+                                        top: -1px;
+                                        left: -1px;
+                                        background: #EEEEEE;
+                                    }
+
+                                    &:after {
+                                        width: 6px;
+                                        height: 23px;
+                                        bottom: -1px;
+                                        right: -1px;
+                                        top: unset;
+                                        background: #EEEEEE;
+                                    }
+                                }
+
+                                p {
+                                    font-size: 16px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .create-management-badge-1, .create-management-badge-2 {
+                .white-Bg-bnr {
+                    .container-width {
+                        .imagetitlecrd {
+                            &:nth-child(1) {
+                                .card-new {
+                                    .bg-card-middle-header {
+                                        a {
+                                            img {
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            &:nth-child(2) {
+                                .card-new {
+                                    .bg-card-middle-header {
+                                        a {
+                                            img {
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            &:nth-child(3) {
+                                .card-new {
+                                    .bg-card-middle-header {
+                                        a {
+                                            img {
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .card-new {
+
+
+                                .bg-card-header, .bg-card-middle-text {
+                                }
+
+                                .bg-card-middle-header {
+                                    a {
+                                        img {
+                                            margin-bottom: 20px;
+                                        }
+
+                                        p {
+                                            font-size: 18px;
+                                            line-height: 22px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .he-kit-flashcard {
+            padding-top: 40px;
+            #he-living-kit-outer {
+                background: white;
+                padding-top: 15px;
+                padding-bottom: 41px;
+
+                .container {
+                    width: 100%;
+
+                    .he-living-kit {
+                        padding: 12px;
+                        margin-left: 0;
+                        margin-right: 0;
+
+
+                        &:before, &:after {
+                            content: none;
+                        }
+
+                        .left {
+                            display: flex;
+                            flex-direction: column-reverse;
+                            
+
+                            img {
+                                width: 121px;
+                                margin: auto;
+                                padding-top: 25px;
+                                padding-bottom: 20px;
+                            }
+
+                            h2 {
+                                font-size: 18px;
+                                line-height: 18px;
+                                color: white;
+                                font-family: $Raleway;
+                                font-weight: 700;
+                                text-align: left;
+                            }
+                        }
+
+                        .right {
+
+
+                            p {
+                                font-size: 18px;
+                                line-height: 20px;
+                            }
+
+                            .j-blk-btn-sec {
+                                justify-content: center;
+                                .j-btn {
+                                    a {
+                                        padding: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

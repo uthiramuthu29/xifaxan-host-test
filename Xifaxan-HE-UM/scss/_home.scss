@@ -1,0 +1,916 @@
+section.home-banner {
+    background: linear-gradient(90deg, rgba(0,115,185,1) 0%, rgba(21,162,223,0.8) 100%), url('../siteassets/img/banner-1920x847-home-xifaxan-he.webp');
+    background-size: 43%, cover;
+    background-position: left, center;
+    background-repeat: no-repeat, no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-bottom: 20px solid #838915;
+
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 43%;
+        width: 10%;
+        height: 100%;
+        background: rgba(21,162,223,0.8);
+        transform-origin: top left;
+        z-index: 1;
+        pointer-events: none;
+        clip-path: polygon(100% 0, 0 0, 0 100%);
+    }
+
+
+
+    .banner-quote-mark {
+        position: absolute;
+        background-color: white;
+        width: 330px;
+        top: 23%;
+        right: 0;
+        padding: 18px 30px 18px 60px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        clip-path: polygon(30px 0, 100% 0, 100% 100%, 0 100%);
+        opacity: 0.9;
+
+
+        p {
+            font-size: 20px;
+            line-height: 28px;
+            color: #0059B4;
+            font-family: $Raleway;
+            font-weight: 900;
+            font-style: italic;
+            letter-spacing: 1px;
+
+
+            span {
+                line-height: 26px;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+
+    .banner-content {
+        margin-top: 85px;
+        margin-bottom: 66px;
+        padding: 0;
+
+
+        h1 {
+            font-size: 36px;
+            line-height: 40px;
+            color: white;
+            font-family: $Raleway;
+            font-weight: 700;
+            padding-bottom: 30px;
+            border-bottom: 1px solid white;
+            text-transform: uppercase;
+            max-width: 500px;
+
+            span {
+                font-weight: 300;
+            }
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 27px;
+            color: white;
+            font-family: $Raleway;
+            font-weight: 500;
+            margin-top: 30px;
+            margin-bottom: 53px;
+            max-width: 500px;
+        }
+
+        .watch-commercial {
+            a {
+                font-size: 26px;
+                line-height: 27px;
+                color: white;
+                font-family: $Raleway;
+                font-weight: 700;
+            }
+        }
+
+
+        .learn-more {
+            margin-bottom: 85px;
+
+            a {
+                font-size: 22px;
+                line-height: 26px;
+                color: #0073B9;
+                font-family: $Raleway;
+                font-weight: 700;
+                background: white;
+                border: 2px solid #838915;
+                padding: 20px 50px;
+                border-radius: 10px;
+                text-decoration: none;
+
+                &:hover {
+                    color: white;
+                    background: #838915;
+                }
+            }
+        }
+    }
+}
+
+section.home-badge {
+    margin-bottom: 101px;
+
+    .how-can-we-help {
+        padding: 80px 0;
+
+        .white-Bg-bnr {
+            .bg-title-background {
+                .bg-title-heading {
+                    h2 {
+                        text-align: center;
+                        margin-bottom: 70px;
+                        font-family: $Raleway;
+                        font-size: 30px;
+                        line-height: 36px;
+                        font-weight: 300;
+                        color: #00569B;
+                    }
+                }
+            }
+
+            .imagetitlecrd {
+                .card-new {
+                    justify-content: center;
+                    background-color: #FBFBFB;
+                    box-shadow: 0px 2px 10px #74747480;
+
+                    .bg-card-header {
+                        display: none;
+                    }
+
+                    .bg-card-middle-header {
+                        padding: 40px 14px 25px;
+
+                        a {
+                            text-decoration: none;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+
+                            img {
+                                height: 90px;
+                            }
+
+                            p {
+                                margin-top: 23px;
+                                font-family: $Raleway;
+                                font-size: 20px;
+                                line-height: 24px;
+                                font-weight: 700;
+                                text-align: center;
+                                color: #4D4D4D;
+                            }
+                        }
+                    }
+
+                    .bg-card-middle-text {
+                        display: none;
+                    }
+                }
+
+                &:nth-child(1) {
+                    .card-new {
+                        .bg-card-middle-header {
+                            a {
+                                img {
+                                    max-width: 105px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    .card-new {
+                        .bg-card-middle-header {
+                            a {
+                                img {
+                                    max-width: 128px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(3) {
+                    .card-new {
+                        .bg-card-middle-header {
+                            a {
+                                img {
+                                    max-width: 117px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(4) {
+                    .card-new {
+                        .bg-card-middle-header {
+                            a {
+                                img {
+                                    max-width: 155px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(5) {
+                    .card-new {
+                        .bg-card-middle-header {
+                            a {
+                                img {
+                                    max-width: 140px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .eligibilty-criteria {
+        text-align: center;
+        font-family: $Raleway;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #4D4D4D;
+    }
+}
+
+#copay-where-to-start {
+    .container {
+        display: flex;
+
+        .copay-img-desc {
+            background: #0073B9;
+            width: 61%;
+            padding-top: 58px;
+            padding-bottom: 52px;
+            padding-left: 12px;
+
+            .copay-left {
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                img {
+                    height: 225px;
+                }
+
+                a {
+                    font-family: $Raleway;
+                    font-size: 18px;
+                    line-height: 21px;
+                    font-weight: 700;
+                    color: #0073B9;
+                    background: white;
+                    border: 2px solid #838915;
+                    border-radius: 10px;
+                    text-decoration: none;
+                    padding: 16px 28px;
+
+                    &:hover {
+                        color: white;
+                        background: #838915;
+                    }
+                }
+            }
+
+            .copay-right {
+                h2 {
+                    font-family: $Raleway;
+                    font-size: 32px;
+                    line-height: 38px;
+                    font-weight: 700;
+                    color: white;
+                    margin-bottom: 24px;
+                }
+
+                h4 {
+                    font-family: $Raleway;
+                    font-size: 20px;
+                    line-height: 24px;
+                    font-weight: 500;
+                    color: white;
+                    margin-bottom: 8px;
+                    max-width: 480px;
+                }
+
+                p {
+                    font-family: $Raleway;
+                    font-size: 14px;
+                    line-height: 17px;
+                    font-weight: 300;
+                    color: white;
+                    max-width: 460px;
+
+                    .copay-savings-link {
+                        color: white;
+                    }
+
+                    .copay-call {
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+
+                .j-blk-btn-sec {
+                    display: none;
+                }
+            }
+        }
+
+        .where-to-start {
+            background: #00569B;
+            width: 44%;
+            padding-top: 48px;
+            position: relative;
+
+            .where-to-start-left {
+                padding: 0;
+                display: flex;
+                align-items: end;
+
+                img {
+                    position: absolute;
+                    width: 350px;
+                    right: 0;
+                    bottom: -5px;
+                }
+            }
+
+            .where-to-start-right {
+                h2 {
+                    font-family: $Raleway;
+                    font-size: 34px;
+                    line-height: 38px;
+                    font-weight: 900;
+                    color: white;
+                    margin-bottom: 15px;
+                    background: #838915;
+                    padding: 6px 20px;
+                    position: relative;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        left: -1px;
+                        top: -1px;
+                        height: 40px;
+                        width: 6px;
+                        background-color: #00569B;
+                    }
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        right: -1px;
+                        bottom: -1px;
+                        height: 40px;
+                        width: 167px;
+                        background-color: #00569B;
+                    }
+                }
+
+                p {
+                    font-family: $Raleway;
+                    font-size: 20px;
+                    line-height: 24px;
+                    font-weight: 500;
+                    color: white;
+                    margin-bottom: 23px;
+                }
+
+                .j-blk-btn-sec {
+                    .j-btn {
+                        a {
+                            font-family: $Raleway;
+                            font-size: 18px;
+                            line-height: 21px;
+                            font-weight: 700;
+                            color: #0073B9;
+                            background: white;
+                            border: 2px solid #838915;
+                            border-radius: 10px;
+                            text-decoration: none;
+                            padding: 16px 30px;
+
+                            &:hover {
+                                color: white;
+                                background: #838915;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 991px) {
+    section.home-banner {
+        background: url('../siteassets//img/banner-375x810-home-xifaxan-he.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 425px;
+        border-bottom: none;
+
+        .banner-quote-mark {
+            padding: 9px 9px 9px 30px;
+            width: 160px;
+
+
+            p {
+                font-size: 8px;
+                line-height: 11px;
+
+            }
+        }
+        &:after{
+            content: none;
+        }
+    }
+
+    section.home-banner-mobile {
+        background: rgb(0,116,191);
+        background: linear-gradient(180deg, rgba(0,116,191,1) 0%, rgba(1,72,134,1) 100%);
+        border-bottom: 12px solid #838915;
+
+        .banner-content {
+            padding-top: 21px;
+            padding-bottom: 33px;
+
+            h1 {
+                font-size: 18px;
+                line-height: 24px;
+                color: white;
+                font-family: $Raleway;
+                font-weight: 900;
+                padding-bottom: 20px;
+                border-bottom: 1px solid white;
+                text-transform: uppercase;
+
+                span {
+                    font-weight: 300;
+                }
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 18px;
+                color: white;
+                font-family: $Raleway;
+                font-weight: 500;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .watch-commercial {
+                text-align: center;
+
+                a {
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: white;
+                    font-family: $Raleway;
+                    font-weight: 700;
+                }
+            }
+
+
+            .learn-more {
+                margin-bottom: 23px;
+                text-align: center;
+
+                a {
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #0073B9;
+                    font-family: $Raleway;
+                    font-weight: 700;
+                    background: white;
+                    border: 2px solid #838915;
+                    padding: 10px 50px;
+                    border-radius: 10px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    section.home-badge {
+        margin-bottom: 35px;
+
+        .how-can-we-help {
+            padding-top: 38px;
+            padding-bottom: 15px;
+
+            .white-Bg-bnr {
+                .bg-title-background {
+                    .bg-title-heading {
+                        h2 {
+                            font-size: 18px;
+                            line-height: 36px;
+                            margin-bottom: 25px;
+                        }
+                    }
+                }
+
+                .imagetitlecrd {
+                    width: 50%;
+
+                    .card-new {
+
+
+                        .bg-card-middle-header {
+                            a {
+
+                                p {
+                                    font-size: 12px;
+                                    line-height: 16px;
+                                }
+                            }
+                        }
+
+
+                    }
+
+                    &:nth-child(1) {
+                        .card-new {
+                            .bg-card-middle-header {
+                                a {
+                                    img {
+                                        height: 46px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &:nth-child(2) {
+                        .card-new {
+                            .bg-card-middle-header {
+                                a {
+                                    img {
+                                        height: 47px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &:nth-child(3) {
+                        .card-new {
+                            .bg-card-middle-header {
+                                a {
+                                    img {
+                                        height: 55px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &:nth-child(4) {
+                        .card-new {
+                            .bg-card-middle-header {
+                                a {
+                                    img {
+                                        height: 43px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &:nth-child(5) {
+                        .card-new {
+                            .bg-card-middle-header {
+                                a {
+                                    img {
+                                        height: 47px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .eligibilty-criteria {
+            font-size: 12px;
+            line-height: 24px;
+        }
+    }
+
+    #copay-where-to-start {
+        .container {
+            display: unset;
+
+            .copay-img-desc {
+                width: 100%;
+                margin: 0;
+                padding-top: 0;
+                padding-bottom: 30px;
+
+
+
+                .copay-right {
+                    h2 {
+                        font-size: 21px;
+                        line-height: 24px;
+                        margin-bottom: 15px;
+                    }
+
+                    h4 {
+                        font-size: 18px;
+                        line-height: 20px;
+                        margin-bottom: 23px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        line-height: 17px;
+
+                    }
+
+                    .j-blk-btn-sec {
+                        margin-bottom: 0;
+                        margin-top: 30px;
+                        justify-content: center;
+
+                        .j-btn {
+
+                            a {
+                                font-size: 18px;
+                                line-height: 21px;
+                                font-family: $Raleway;
+                                font-weight: 700;
+                                color: #0073B9;
+                                background: white;
+                                border: 2px solid #838915;
+                                border-radius: 10px;
+                                text-decoration: none;
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .where-to-start {
+                width: 100%;
+                margin: 0;
+                padding-top: 34px;
+                flex-direction: column-reverse;
+
+                .where-to-start-left {
+                    img {
+                        position: relative;
+                        width: unset;
+                    }
+                }
+
+                .where-to-start-right {
+                    h2 {
+                        font-size: 21px;
+                        line-height: 24px;
+                        margin-bottom: 20px;
+                        max-width: 225px;
+                        &:after{
+                            width: 92px;
+                            height: 20px;
+                        }
+                    }
+
+                    p {
+                        font-size: 18px;
+                        line-height: 20px;
+                        margin-bottom: 30px;
+                    }
+
+                    .j-blk-btn-sec {
+                        margin-bottom: 0;
+                        justify-content: center;
+
+                        .j-btn {
+                            a {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    section.home-banner {
+        .banner-quote-mark {
+            width: 225px;
+            padding: 12px 18px 12px 45px;
+
+            p {
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+
+        .banner-content {
+            h1 {
+                font-size: 28px;
+                line-height: 32px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 22px;
+            }
+
+            .learn-more {
+                a {
+                    font-size: 18px;
+                    line-height: 22px;
+                    padding: 15px 30px;
+                }
+            }
+
+            .watch-commercial {
+                a {
+                    font-size: 22px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+
+    #copay-where-to-start {
+        .container {
+            .where-to-start {
+                .where-to-start-right {
+                    h2 {
+                        &:after {
+                            width: 35px;
+                        }
+                    }
+                }
+
+                .where-to-start-left {
+                    img {
+                        width: 250px;
+                    }
+                }
+            }
+
+            .copay-img-desc {
+                .copay-left {
+                    a {
+                        padding: 16px 8px;
+                    }
+                }
+
+                .copay-right {
+                    p {
+                        max-width: 410px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    section.home-banner {
+        .banner-quote-mark {
+            width: 200px;
+            padding: 12px 18px 12px 45px;
+
+            p {
+                font-size: 10px;
+                line-height: 16px;
+            }
+        }
+
+        .banner-content {
+            h1 {
+                font-size: 24px;
+                line-height: 28px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 18px;
+            }
+
+            .learn-more {
+                a {
+                    font-size: 18px;
+                    line-height: 22px;
+                    padding: 15px 30px;
+                }
+            }
+
+            .watch-commercial {
+                a {
+                    font-size: 22px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+
+    #copay-where-to-start {
+        .container {
+            .where-to-start {
+                .where-to-start-right {
+                    h2 {
+                        &:after {
+                            width: 125px;
+                        }
+                    }
+
+                    .j-blk-btn-sec {
+                        .j-btn {
+                            a {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+
+                .where-to-start-left {
+                    img {
+                        width: 250px;
+                    }
+                }
+            }
+
+            .copay-img-desc {
+                .copay-left {
+                    a {
+                        padding: 16px 8px;
+                        font-size: 14px;
+                    }
+                }
+
+                .copay-right {
+                    p {
+                        max-width: 335px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    section {
+        &.home-badge {
+            .how-can-we-help {
+                .white-Bg-bnr {
+                    .imagetitlecrd {
+                        .card-new {
+                            .bg-card-middle-header {
+                                a {
+                                    p {
+                                        font-size: 16px;
+                                        line-height: 18px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

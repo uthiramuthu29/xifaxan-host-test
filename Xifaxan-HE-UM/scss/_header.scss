@@ -1,0 +1,511 @@
+header {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+
+    .top-links {
+        background: #0059B4;
+
+        .links-wrapper {
+
+
+            ul {
+                display: flex;
+                justify-content: flex-end;
+                padding: 45px 0;
+
+                li {
+                    margin-left: 45px;
+
+                    &:last-child {
+                        list-style: disc;
+
+                        &::marker {
+                            color: #EF5516;
+                        }
+                    }
+
+                    a {
+                        color: white;
+                        font-family: $Raleway;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 21px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-header {
+        background: rgb(0,121,175);
+        background: linear-gradient(180deg, rgba(0,121,175,1) 0%, rgba(0,105,175,1) 100%);
+
+        nav {
+            padding: 0 !important;
+            position: unset;
+
+            .logo-wrapper {
+                background: white;
+                width: 310px;
+                padding: 60px 25px 17px 24px;
+                margin-top: -135px;
+                margin-bottom: 28px;
+                border-bottom-left-radius: 12px;
+                border-bottom-right-radius: 12px;
+
+                .logo {
+
+
+                    img {
+                    }
+                }
+            }
+
+
+
+            #navbarCollapse {
+                justify-content: end;
+
+                .navbar-nav {
+                    ul {
+                        &.navbar-nav {
+                            flex-direction: row-reverse;
+                            margin-left: 70px;
+
+                            li {
+                                padding: 25px 0;
+                                margin-right: 65px;
+                                position: unset;
+
+                                &.active {
+                                    border-bottom: 10px solid #838915;
+                                }
+
+                                &:nth-child(5) {
+                                    margin-right: 0;
+
+                                    a {
+                                        background: #0059BA;
+                                        padding: 26px 24px 16px;
+                                        border: 1px solid white;
+                                        border-top: none;
+                                        border-bottom-left-radius: 12px;
+                                        border-bottom-right-radius: 12px;
+                                    }
+                                }
+
+                                &:first-child, &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+                                    display: none;
+                                }
+
+                                a {
+                                    color: white;
+                                    font-family: $Raleway;
+                                    font-weight: 300;
+                                    font-size: 24px;
+                                    text-decoration: none;
+                                }
+
+                                .dropdown-toggle {
+                                    &::after {
+                                        content: none;
+                                    }
+                                }
+
+                                &:hover {
+                                    .dropdown-toggle {
+
+                                        ul {
+                                            &.dropdown-menu {
+                                                display: flex;
+                                                flex-direction: row-reverse;
+                                                background: #E4EDEC;
+                                                padding: 0;
+                                                bottom: -43%;
+                                                border: none;
+                                                border-radius: unset;
+                                                width: 100%;
+                                                left: 0;
+                                                justify-content: center;
+
+                                                li {
+                                                    padding: 34px 0 24px;
+                                                    margin-right: 41px;
+                                                    &.active{
+                                                        border-bottom: none;
+                                                    }
+
+                                                    &:first-child, &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+                                                        display: block;
+                                                    }
+
+                                                    a {
+                                                        color: #259BCA;
+                                                        background: none;
+                                                        border: none;
+                                                        font-size: 24px;
+                                                        line-height: 28px;
+                                                        font-weight: 500;
+                                                        padding: 0;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .banner-copay-link {
+        position: absolute;
+        max-width: 210px;
+        z-index: 3000;
+        left: 0;
+        top: 100%;
+
+        a {
+            display: block;
+            font-size: 21px;
+            line-height: 25px;
+            color: white;
+            font-family: $Raleway;
+            font-weight: 500;
+            background: #838915;
+            border-bottom-right-radius: 10px;
+            padding: 17px 17px 17px 22px;
+            text-decoration: none;
+            border-bottom: 1px solid white;
+            border-right: 1px solid white;
+        }
+    }
+}
+
+
+
+@media (max-width: 991px) {
+    header {
+
+        .top-links {
+            .links-wrapper {
+                ul {
+                    padding: 8px 0;
+                    justify-content: space-evenly;
+
+                    li {
+                        margin-left: 0px;
+                        color: white;
+
+                        &:last-child, &:nth-child(4) {
+                            display: none;
+                        }
+
+                        a {
+                            font-size: 10px;
+                            line-height: 25px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+
+        .main-header {
+            background: #0059B4;
+
+            nav {
+                .logo-wrapper {
+                    width: 122px;
+                    padding: 8px;
+                    margin-top: 0;
+                    margin-bottom: 6px;
+
+                    .logo {
+
+
+                        img {
+                        }
+                    }
+                }
+
+
+                .navbar-toggler {
+                    background: url('/siteassets/img/img-24x24-hamburger-menu.webp');
+                    width: 25px;
+                    height: 25px;
+                    background-size: 24px;
+                    background-repeat: no-repeat;
+
+                    &:not(.collapsed) {
+                        background: url('/siteassets/img/img-24x24-hamburger-close.webp');
+                        width: 25px;
+                        height: 25px;
+                        background-size: 24px;
+                        background-repeat: no-repeat;
+                    }
+
+                    &:focus {
+                        box-shadow: none;
+                    }
+                }
+
+                #navbarCollapse {
+                    position: fixed;
+                    z-index: 50;
+                    top: 17%;
+                    background: #0079BF;
+                    width: 80%;
+                    right: 0;
+                    height: 69%;
+
+                    .navbar-nav {
+                        ul {
+                            &.navbar-nav {
+                                flex-direction: column-reverse;
+                                margin-left: 0;
+
+                                li {
+                                    padding: 15px;
+                                    margin: 0;
+                                    border-top: 1px solid white;
+                                    border-bottom: 1px solid white;
+                                    font-family: $Raleway;
+
+
+
+                                    a {
+                                        font-size: 16px;
+                                    }
+
+
+
+                                    &:first-child, &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+                                        display: block;
+                                    }
+
+                                    &:nth-child(5) {
+                                        a {
+                                            background: unset;
+                                            border: none;
+                                            padding: 0;
+                                        }
+                                    }
+
+                                    &:nth-child(8), &:nth-child(7), &:nth-child(6) {
+                                        position: relative;
+
+                                        &::after {
+                                            content: '+';
+                                            float: right;
+                                            color: white;
+                                            font-size: 16px;
+                                            border: none;
+                                            position: absolute;
+                                            top: 16px;
+                                            right: 16px;
+                                        }
+
+                                        &:not(.collapsed) {
+                                            &::after {
+                                                content: '-';
+                                            }
+                                        }
+
+                                        .dropdown-toggle {
+                                            ul {
+                                                &.dropdown-menu {
+                                                    flex-direction: column-reverse;
+
+                                                    li {
+                                                        margin: 0;
+                                                        padding: 0 12px;
+
+                                                        a {
+                                                            font-size: 12px;
+                                                            margin: 0;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+                                        a {
+                                            font-size: 12px;
+                                        }
+                                    }
+
+                                    &:nth-child(1) {
+                                        list-style: disc inside;
+                                        display: list-item;
+
+                                        a {
+                                            font-weight: 700;
+                                            margin-left: -12px;
+                                        }
+
+                                        &::marker {
+                                            color: #EF5516;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .banner-copay-link {
+            right: 0;
+            max-width: unset;
+
+            a {
+                font-size: 13px;
+                font-weight: 700;
+                text-align: center;
+                border-radius: unset;
+                padding: 8px;
+                border: none;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    header {
+        .top-links {
+            .links-wrapper {
+                ul {
+                    padding: 45px 0;
+
+                    li {
+                        margin-left: 20px;
+
+                        a {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .main-header {
+            nav {
+                .logo-wrapper {
+                    width: 260px;
+                }
+
+                #navbarCollapse {
+                    .navbar-nav {
+                        ul {
+                            &.navbar-nav {
+                                margin-left: 50px;
+
+                                li {
+                                    margin-right: 25px;
+
+                                    a {
+                                        font-size: 22px;
+                                    }
+
+                                    &:hover {
+                                        .dropdown-toggle {
+                                            ul {
+                                                &.dropdown-menu {
+                                                    li {
+                                                        a {
+                                                            font-size: 20px;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    header {
+        .top-links {
+            .links-wrapper {
+                ul {
+                    padding: 45px 0;
+
+                    li {
+                        margin-left: 20px;
+
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .main-header {
+            nav {
+                #navbarCollapse {
+                    .navbar-nav {
+                        ul {
+                            &.navbar-nav {
+                                margin-left: 50px;
+
+                                li {
+                                    margin-right: 25px;
+
+                                    a {
+                                        font-size: 20px;
+                                    }
+
+                                    &:hover {
+                                        .dropdown-toggle {
+                                            ul.dropdown-menu {
+                                                bottom: -36%;
+
+                                                li {
+                                                    padding: 20px 0;
+                                                    margin-right: 30px;
+
+                                                    a {
+                                                        font-size: 14px;
+                                                        line-height: 28px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .banner-copay-link {
+            max-width: 150px;
+
+            a {
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+    }
+}

@@ -1,0 +1,361 @@
+section.page-not-found {
+    text-align: center;
+    font-family: $Raleway;
+    padding-top: 90px;
+
+    h2 {
+        font-size: 36px;
+        line-height: 40px;
+        color: #0073B9;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 24px;
+        color: #393939;
+        font-weight: 500;
+        padding: 0 250px;
+    }
+}
+section.sitemap {
+    padding-top: 100px;
+    padding-bottom: 126px;
+    color: #0073B9;
+
+    h2 {
+        font-size: 36px;
+        line-height: 32px;
+        font-family: $Raleway;
+        font-weight: 700;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+    }
+
+    ul {
+        li {
+            list-style: disc inside;
+
+            a {
+                font-size: 17px;
+                line-height: 32px;
+                font-family: Roboto;
+                font-weight: 700;
+                color: #0073B9;
+                text-decoration: none;
+            }
+
+
+            &::marker {
+                color: #707070;
+            }
+        }
+
+        ul {
+            padding-left: 50px;
+
+            li {
+                list-style: circle inside;
+
+                a {
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+#hcp-pop {
+    font-family: $Raleway;
+
+    .modal-dialog {
+        max-width: 820px;
+        margin: 23% auto;
+
+        .modal-content {
+            padding: 40px 12px 25px;
+            background: #EEEEEE;
+            border-radius: 12px;
+
+            .modal-header {
+                position: relative;
+                justify-content: center;
+                border: none;
+
+                h2 {
+                    font-size: 26px;
+                    line-height: 28px;
+                    color: #0073B9;
+                }
+
+                button {
+                    position: absolute;
+                    top: -25px;
+                    right: 0;
+                    background-size: 50px;
+                    padding: 0;
+                    margin: 0;
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+
+            .modal-body {
+                p {
+                    font-size: 16px;
+                    line-height: 18px;
+                    text-align: center;
+                    color: #707070;
+                }
+            }
+
+            .modal-footer {
+                border: none;
+                justify-content: center;
+
+                a {
+                    font-size: 16px;
+                    line-height: 18px;
+                    color: white;
+                    background: #0073B9;
+                    text-decoration: none;
+                    padding: 10px 25px;
+                    border: 2px solid #84892F;
+                    border-radius: 12px;
+                    &.continue{
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#home-wistia-popup {
+
+
+    .modal-dialog {
+        max-width: 1150px;
+        margin: 13% auto;
+
+        .modal-content {
+            background: transparent;
+            border: none;
+
+            .modal-header {
+                padding: 0;
+                border: none;
+                position: relative;
+
+                button {
+                    background: none;
+                    margin: 0;
+                    padding: 0;
+                    position: absolute;
+                    top: -40px;
+                    right: -50px;
+                    color: white;
+                    font-family: $Raleway;
+                    font-size: 50px;
+                    line-height: 27px;
+                    font-weight: 500;
+                    opacity: 1;
+                }
+            }
+
+            .modal-body {
+                padding: 0;
+            }
+        }
+    }
+}
+
+.top-and-chat-icon {
+    position: fixed;
+    top: 70%;
+    right: 1%;
+    z-index: 1007;
+
+    .top-icon {
+        text-align: end;
+
+        img {
+            width: 36px;
+        }
+        
+    }
+
+
+
+
+    .chat-icon {
+        position: relative;
+
+        img {
+            width: 120px;
+            position: relative;
+            z-index: 99;
+        }
+
+        .chat-icon-hover {
+            display: none;
+            position: absolute;
+            background: white;
+            top: -100px;
+            width: 250px;
+            right: 75px;
+            border-radius: 12px;
+
+            p {
+                color: #0073B9;
+                font-size: 20px;
+                line-height: 39px;
+                font-family: $Raleway;
+                font-weight: 500;
+                padding: 10px 28px;
+            }
+        }
+
+        &:hover {
+            .chat-icon-hover {
+                display: block;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    section.page-not-found {
+
+        h2 {
+            font-size: 26px;
+            line-height: 40px;
+            color: #0073B9;
+        }
+
+        p {
+            font-size: 17px;
+            line-height: 20px;
+            padding: 0;
+        }
+    }
+
+    section.sitemap {
+
+
+        ul {
+            li {
+
+
+                &::marker {
+                }
+            }
+
+            ul {
+
+
+                li {
+                }
+            }
+        }
+    }
+
+
+    #hcp-pop {
+
+
+        .modal-dialog {
+            padding: 0 18px;
+            margin: 60% auto;
+
+            .modal-content {
+
+
+                .modal-header {
+                    padding-left: 0;
+                    padding-right: 0;
+
+                    h2 {
+                        font-size: 20px;
+                        line-height: 24px;
+                        text-align: center;
+                    }
+
+                    button {
+                        top: -25px;
+                        right: 0;
+                        background-size: 40px;
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+
+                .modal-body {
+                    p {
+                        font-size: 12px;
+                        line-height: 16px;
+                    }
+                }
+
+                .modal-footer {
+
+                    a {
+                        font-size: 16px;
+                        line-height: 18px;
+                        padding: 10px;
+
+                        &.continue {
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .top-and-chat-icon {
+        top: 78%;
+        .top-icon {
+            display: none;
+            img {
+            }
+        }
+
+
+
+
+        .chat-icon {
+           
+
+            img {
+                width: 60px;
+                
+            }
+
+            .chat-icon-hover {
+                width: 175px;
+                right: 60px;
+
+                p {
+                   font-size: 14px;
+                   line-height: 24px;
+                }
+            }
+
+            &:hover {
+                .chat-icon-hover {
+                    
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px){
+    .top-and-chat-icon{
+        top: 68%;
+    }
+}

@@ -1,0 +1,74 @@
+#positionISI {
+    font-family: $Raleway;
+    padding-bottom: 60px;
+
+    h2 {
+        color: #0073B9;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    p, ul > li {
+        color: #6D6E71;
+        font-size: 16px;
+        font-weight: 400;
+
+        a {
+            color: #1276CF;
+            text-decoration: none;
+
+            &.fda-link {
+                text-decoration: underline;
+            }
+
+            &.no-color-links {
+                color: #6D6E71;
+            }
+        }
+    }
+
+    #sticky-isi-module {
+        height: 110px;
+
+
+        .seeMore {
+            color: #767B29;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 700;
+
+            &::after {
+                content: '+';
+                background: #767B29;
+                color: white;
+                padding: 0px 4px;
+                border-radius: 50%;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .expandedView {
+        padding-top: 30px;
+        z-index: 1000;
+        position: relative;
+
+        .seeLess {
+            display: none;
+        }
+    }
+}
+
+@media(max-width: 991px) {
+    #positionISI {
+        #sticky-isi-module {
+            z-index: 1000;
+
+            .indications, .indications-para {
+                display: none;
+            }
+        }
+    }
+}

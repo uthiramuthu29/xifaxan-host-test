@@ -1,0 +1,1 @@
+$(document).ready((function(){$(".thirdParty").click((function(t){t.isDefaultPrevented();t="#"+$(this).attr("rel");var a=$(this).attr("href");return $(t).show(),$(".continue").attr("href",a),!1})),$(".continue").click((function(){$(this).attr("target","_blank"),$(this).closest(".modal").modal("hide")})),$(".cancel").attr("data-bs-dismiss","modal")}));

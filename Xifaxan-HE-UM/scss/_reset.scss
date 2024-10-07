@@ -1,0 +1,16 @@
+*, body, dl, dt, h1, h2, h3, h4, h5, h6, ol, p, ul, li {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    list-style-type: none;
+}
+#epi-quickNavigator{
+    display: none !important;
+}
+
+.without-scroll{
+    overflow: hidden;
+}
+
+//variables
+$Raleway: "Raleway";

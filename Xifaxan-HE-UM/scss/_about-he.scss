@@ -1,0 +1,1071 @@
+section.about-he-banner {
+    background: url('/siteassets/img/banner-1920x847-home-xifaxan-he-overlay.webp'), url('/siteassets/img/banner-1920x650-about-he.webp');
+    background-size: 100% 100%, cover;
+    background-position: left, center;
+    background-repeat: no-repeat, no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-bottom: 20px solid #838915;
+    font-family: $Raleway;
+
+
+
+    .banner-content {
+        margin-top: 85px;
+        padding: 0;
+
+
+        h1 {
+            font-size: 48px;
+            line-height: 50px;
+            color: white;
+            font-weight: 900;
+            padding-bottom: 30px;
+            border-bottom: 1px solid white;
+            text-transform: uppercase;
+            max-width: 500px;
+
+            span {
+                font-weight: 300;
+            }
+        }
+
+        h2 {
+            font-size: 36px;
+            line-height: 40px;
+            color: white;
+            font-family: $Raleway;
+            font-weight: 700;
+            max-width: 540px;
+            margin-top: 30px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 27px;
+            color: white;
+            font-family: $Raleway;
+            font-weight: 500;
+            margin-top: 30px;
+            margin-bottom: 53px;
+            max-width: 500px;
+        }
+
+
+        .learn-more {
+            margin-bottom: 85px;
+
+            a {
+                font-size: 22px;
+                line-height: 26px;
+                color: #0073B9;
+                font-family: $Raleway;
+                font-weight: 700;
+                background: white;
+                border: 2px solid #838915;
+                padding: 20px 50px;
+                border-radius: 10px;
+                text-decoration: none;
+
+                &:hover {
+                    color: white;
+                    background: #838915;
+                }
+            }
+        }
+    }
+}
+
+section.symptoms-hear-from-he {
+    background: #0073B9;
+    padding-top: 108px;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 97%);
+
+    #symptoms {
+        padding-bottom: 132px;
+
+        .symptoms-he {
+            .symptoms-he-left {
+                img {
+                }
+            }
+
+            .symptoms-he-right {
+                .symptoms-he-right-content-1 {
+                    h2 {
+                        font-size: 48px;
+                        line-height: 57px;
+                        color: white;
+                        font-family: $Raleway;
+                        font-weight: 700;
+                        margin-bottom: 30px;
+                        background: #838915;
+                        position: relative;
+                        padding: 18px 50px;
+                        max-width: 500px;
+
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            left: -1px;
+                            top: 75px;
+                            height: 20px;
+                            width: 35px;
+                            background-color: #0073B9;
+                        }
+
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            right: -1px;
+                            top: 0px;
+                            height: 20px;
+                            width: 35px;
+                            background-color: #0073B9;
+                        }
+                    }
+
+                    h4 {
+                        font-size: 30px;
+                        line-height: 36px;
+                        color: white;
+                        font-family: $Raleway;
+                        font-weight: 700;
+                        margin-bottom: 23px;
+                    }
+
+                    p {
+                        margin-bottom: 20px;
+                    }
+
+                    ul {
+                        margin-bottom: 20px;
+                    }
+
+                    p, ul > li {
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: white;
+                        font-family: $Raleway;
+                        font-weight: 500;
+                        list-style-type: disc;
+                    }
+                }
+
+                .symptoms-he-right-content-2 {
+                    h2 {
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: white;
+                        font-family: $Raleway;
+                        font-weight: 900;
+                        margin-bottom: 26px;
+                    }
+
+                    .mental-physical {
+                        margin-bottom: 42px;
+
+                        .mental, .physical {
+                            img {
+                                margin-bottom: 24px;
+                            }
+
+                            h4 {
+                                font-size: 30px;
+                                line-height: 36px;
+                                color: white;
+                                font-family: $Raleway;
+                                font-weight: 700;
+                                margin-bottom: 6px;
+                            }
+
+                            ul {
+                                li {
+                                    font-size: 20px;
+                                    line-height: 28px;
+                                    color: white;
+                                    font-family: $Raleway;
+                                    font-weight: 500;
+                                    list-style-type: disc;
+                                }
+                            }
+                        }
+
+                        .mental {
+                            img {
+                                width: 114px;
+                            }
+                        }
+
+                        .physical {
+                            img {
+                                width: 88px;
+                            }
+                        }
+                    }
+
+                    p {
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: white;
+                        font-family: $Raleway;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+        .hear-from-he {
+            padding-top: 135px;
+            padding-bottom: 90px;
+
+            .left {
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+
+                .hear-he-head {
+                    h2 {
+                        font-size: 48px;
+                        line-height: 52px;
+                        color: white;
+                        font-family: $Raleway;
+                        font-weight: 700;
+                        background: #838915;
+                        padding: 20px 30px;
+                        max-width: 575px;
+                        position: relative;
+
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            left: -1px;
+                            bottom: -1px;
+                            height: 47px;
+                            width: 8px;
+                            background-color: #0073B9;
+                        }
+
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            right: -1px;
+                            bottom: -1px;
+                            height: 47px;
+                            width: 96px;
+                            background-color: #0073B9;
+                        }
+                    }
+                }
+
+                .j-blk-btn-sec {
+                    margin-bottom: 0;
+                    margin-top: 40px;
+
+                    .j-btn {
+
+                        a {
+                            font-size: 18px;
+                            line-height: 21px;
+                            color: #0073B9;
+                            font-family: $Raleway;
+                            font-weight: 700;
+                            background: white;
+                            border: 2px solid #838915;
+                            border-radius: 10px;
+                            margin-right: 0;
+                            text-decoration: none;
+
+                            &:hover {
+                                color: white;
+                                background: #838915;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .right {
+                img {
+                    max-width: 388px;
+                }
+            }
+        }
+
+        .download-checklist {
+            background: #0059B4;
+            padding: 36px 45px 33px 81px;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: -1px;
+                bottom: -1px;
+                height: 55px;
+                width: 35px;
+                background-color: #0073B9;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                right: -1px;
+                top: -1px;
+                height: 110px;
+                width: 30px;
+                background-color: #0073B9;
+            }
+
+            .left {
+                padding-left: 0px;
+
+                img {
+                }
+            }
+
+            .right {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .download-checklist-content {
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: white;
+                    font-family: $Raleway;
+                    max-width: 750px;
+
+                    h2 {
+                        font-weight: 900;
+                        font-size: 20px;
+                        line-height: 24px;
+                        margin-bottom: 25px;
+                    }
+
+                    p {
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+                }
+
+                .j-blk-btn-sec {
+                    margin-bottom: 0;
+
+                    .j-btn {
+                        a {
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 21px;
+                            background: white;
+                            border: 2px solid #838915;
+                            border-radius: 10px;
+                            color: #0073B9;
+                            padding: 15px 50px;
+                            text-decoration: none;
+                            margin-right: 0;
+
+                            &:hover {
+                                color: white;
+                                background: #838915;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.causes-learn-risks-he {
+    margin-top: -60px;
+    background: url('/siteassets/img/img-2059x1532-bubble-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 146px;
+
+
+
+    .causes-risks-he {
+        padding-top: 130px;
+        padding-bottom: 90px;
+
+        .left, .right {
+            h2 {
+                font-size: 40px;
+                line-height: 57px;
+                color: white;
+                font-family: $Raleway;
+                font-weight: 700;
+                background: #838915;
+                padding: 25px 50px;
+                position: relative;
+                margin-bottom: 20px;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    background-color: #F6F6F6;
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    background-color: #F6F6F6;
+                }
+            }
+
+            .left-content, .right-content {
+                padding-left: 50px;
+
+                h4 {
+                    font-size: 30px;
+                    line-height: 32px;
+                    color: #0073B9;
+                    font-family: $Raleway;
+                    font-weight: 700;
+                    margin-bottom: 12px;
+                }
+
+                p {
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #4D4D4D;
+                    font-family: $Raleway;
+                    font-weight: 500;
+
+                    &.cause-risk-para-2 {
+                        margin-top: 32px;
+                    }
+                }
+            }
+        }
+
+        .left {
+            h2 {
+                max-width: 475px;
+
+                &::before {
+                    left: -1px;
+                    top: 83px;
+                    height: 25px;
+                    width: 25px;
+                }
+
+                &::after {
+                    right: -1px;
+                    top: -1px;
+                    height: 25px;
+                    width: 20px;
+                }
+            }
+        }
+
+        .right {
+            h2 {
+                max-width: 420px;
+
+                &::before {
+                    left: -1px;
+                    top: 83px;
+                    height: 25px;
+                    width: 20px;
+                }
+
+                &::after {
+                    right: -1px;
+                    top: -1px;
+                    height: 12px;
+                    width: 40px;
+                    background: #EBEBEB;
+                }
+            }
+
+            p {
+                margin-bottom: 35px;
+            }
+
+            #worsening-hospitalization {
+                .worsening, .hospitalization {
+                    margin-bottom: 45px;
+                    align-items: center;
+
+                    .left {
+                        img {
+                        }
+                    }
+
+                    .right {
+                        h5 {
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: #0073B9;
+                            font-family: $Raleway;
+                            font-weight: 700;
+                        }
+
+                        p {
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: #4D4D4D;
+                            font-family: $Raleway;
+                            font-weight: 500;
+                            margin-bottom: 0;
+                        }
+
+                        .j-blk-btn-sec {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .learn-about-xifaxan {
+        background: #0073B9;
+        padding: 60px;
+        align-items: center;
+
+        .left {
+            img {
+            }
+        }
+
+        .right {
+            h2 {
+                font-size: 32px;
+                line-height: 38px;
+                color: white;
+                font-family: $Raleway;
+                font-weight: 700;
+                margin-bottom: 35px;
+            }
+
+            .j-blk-btn-sec {
+                .j-btn {
+                    a {
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #0073B9;
+                        font-family: $Raleway;
+                        font-weight: 700;
+                        background: white;
+                        border: 2px solid #838915;
+                        border-radius: 14px;
+                        text-decoration: none;
+
+                        &:hover {
+                            color: white;
+                            background: #838915;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    section.about-he-banner {
+        background: url('/siteassets/img/banner-320x289-about-he.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 289px;
+        border-bottom: none;
+
+        img {
+        }
+
+        .banner-content {
+            h1 {
+                font-size: 18px;
+                line-height: 21px;
+
+                span {
+                }
+            }
+
+            h2 {
+            }
+
+            p {
+            }
+
+            .watch-commercial {
+                a {
+                }
+            }
+
+            .learn-more {
+                a {
+                }
+            }
+        }
+    }
+
+    section.about-he-banner-mobile {
+        background: #0074BF;
+        border-bottom: 12px solid #838915;
+        padding-top: 20px;
+        padding-bottom: 40px;
+
+        .banner-content {
+
+
+            h1 {
+                font-size: 18px;
+                line-height: 24px;
+                color: white;
+                font-family: $Raleway;
+                font-weight: 900;
+                padding-bottom: 20px;
+                border-bottom: 1px solid white;
+                text-transform: uppercase;
+
+                span {
+                    font-weight: 300;
+                }
+            }
+
+            h2 {
+                font-size: 16px;
+                line-height: 18px;
+                color: white;
+                font-family: $Raleway;
+                font-weight: 700;
+                margin-top: 20px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 18px;
+                color: white;
+                font-family: $Raleway;
+                font-weight: 500;
+                margin-top: 20px;
+                margin-bottom: 33px;
+            }
+
+
+            .learn-more {
+                text-align: center;
+
+                a {
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #0073B9;
+                    font-family: $Raleway;
+                    font-weight: 700;
+                    background: white;
+                    border: 2px solid #838915;
+                    padding: 10px 50px;
+                    border-radius: 10px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    section.symptoms-hear-from-he {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 99.5%);
+        padding-top: 44px;
+
+        #symptoms {
+            padding-bottom: 0;
+
+            .symptoms-he {
+                .symptoms-he-left {
+                    img {
+                    }
+                }
+
+                .symptoms-he-right {
+                    .symptoms-he-right-content-1 {
+                        padding-top: 30px;
+
+                        h2 {
+                            font-size: 21px;
+                            line-height: 24px;
+                            padding: 10px 15px;
+                            margin-bottom: 26px;
+                            max-width: 200px;
+
+                            &::before {
+                                content: none;
+                            }
+
+                            &::after {
+                                content: none;
+                            }
+                        }
+
+                        h4 {
+                            font-size: 18px;
+                            line-height: 18px;
+                        }
+
+                        p {
+                            font-size: 16px;
+                            line-height: 18px;
+                        }
+
+                        ul {
+                            li {
+                                font-size: 16px;
+                                line-height: 18px;
+                            }
+                        }
+                    }
+
+                    .symptoms-he-right-content-2 {
+                        h2 {
+                            font-size: 16px;
+                            line-height: 18px;
+                        }
+
+                        .mental-physical {
+                            .mental, .physical {
+                                .mental-img, .physical-img {
+                                    text-align: center;
+
+                                    img {
+                                    }
+                                }
+
+
+                                h4 {
+                                    font-size: 18px;
+                                    line-height: 18px;
+                                }
+
+                                ul {
+                                    li {
+                                        font-size: 16px;
+                                        line-height: 20px;
+                                    }
+                                }
+                            }
+
+                            .physical {
+                                margin-top: 35px;
+                            }
+                        }
+
+                        p {
+                            font-size: 16px;
+                            line-height: 18px;
+                        }
+                    }
+                }
+            }
+
+            .hear-from-he {
+                padding-top: 16px;
+                flex-direction: column-reverse;
+                position: relative;
+                padding-bottom: 106px;
+
+                .left {
+                    align-items: center;
+
+                    .hear-he-head {
+                        h2 {
+                            font-size: 21px;
+                            line-height: 24px;
+                            margin-bottom: 24px;
+                            max-width: 285px;
+
+                            &::before {
+                                width: 10px;
+                                height: 24px;
+                            }
+
+                            &::after {
+                                width: 50px;
+                                height: 24px;
+                            }
+                        }
+                    }
+
+                    .j-blk-btn-sec {
+                        margin-top: 0;
+                        position: absolute;
+                        bottom: 40px;
+
+                        .j-btn {
+                            a {
+                            }
+                        }
+                    }
+                }
+
+                .right {
+                    text-align: center;
+
+                    img {
+                        max-width: 250px;
+                    }
+                }
+            }
+
+            .download-checklist {
+                padding: 33px 20px 53px;
+
+                &::before {
+                    content: none;
+                }
+
+                &::after {
+                    content: none;
+                }
+
+                .left {
+                    padding-left: 12px;
+                    text-align: center;
+
+                    img {
+                    }
+                }
+
+                .right {
+                    flex-direction: column;
+
+                    .download-checklist-content {
+                        h2 {
+                            font-size: 18px;
+                            line-height: 20px;
+                            margin-top: 20px;
+                        }
+
+                        p {
+                            font-size: 16px;
+                            line-height: 18px;
+                        }
+                    }
+
+                    .j-blk-btn-sec {
+                        margin-top: 35px;
+                        .j-btn {
+                            a {
+                                padding: 10px 23px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section.causes-learn-risks-he {
+        padding-bottom: 0;
+
+        .causes-risks-he {
+            padding-bottom: 78px;
+            .left, .right {
+                h2 {
+                    font-size: 21px;
+                    line-height: 24px;
+                    padding: 10px 30px;
+                    max-width: 250px;
+
+                    &::before {
+                        content: none;
+                    }
+
+                    &::after {
+                        content: none;
+                    }
+                }
+
+                .left-content, .right-content {
+                    padding-left: 0px;
+
+                    h4 {
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 18px;
+
+                        &.cause-risk-para-2 {
+                        }
+                    }
+                }
+            }
+
+
+
+            .right {
+                margin-top: 40px;
+
+                h2 {
+                }
+
+
+                #worsening-hospitalization {
+                    .worsening, .hospitalization {
+                        .left {
+                            text-align: center;
+
+                            img {
+                                width: 113px;
+                            }
+                        }
+
+                        .right {
+                            h5 {
+                                font-size: 16px;
+                                line-height: 18px;
+                            }
+
+                            p {
+                                font-size: 16px;
+                                line-height: 18px;
+                            }
+
+                            .j-blk-btn-sec {
+                            }
+                        }
+                    }
+
+                    .hospitalization{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+
+        .learn-about-xifaxan {
+            padding: 34px 5px 45px;
+            margin: 0;
+
+            .left {
+                img {
+                }
+            }
+
+            .right {
+                h2 {
+                    font-size: 21px;
+                    line-height: 24px;
+                }
+
+                .j-blk-btn-sec {
+                    .j-btn {
+                        a {
+                            margin-right: 0;
+                            padding: 10px 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    section.about-he-banner {
+        .banner-content {
+            h1 {
+                font-size: 32px;
+                line-height: 36px;
+            }
+
+            h2 {
+                font-size: 28px;
+                line-height: 32px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 22px;
+            }
+
+            .learn-more {
+                a {
+                    font-size: 18px;
+                    line-height: 22px;
+                    padding: 15px 30px;
+                }
+            }
+        }
+    }
+
+    section.symptoms-hear-from-he {
+        #symptoms {
+            .download-checklist {
+                .right {
+                    .j-blk-btn-sec {
+                        .j-btn {
+                            a {
+                                padding: 15px;
+                                font-size: 10px;
+                                line-height: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    section.about-he-banner {
+        .banner-content {
+            h1 {
+                font-size: 28px;
+                line-height: 32px;
+            }
+
+            h2 {
+                font-size: 24px;
+                line-height: 28px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 18px;
+            }
+
+            .learn-more {
+                a {
+                    font-size: 16px;
+                    line-height: 18px;
+                    padding: 15px 30px;
+                }
+            }
+        }
+    }
+
+    section {
+        &.symptoms-hear-from-he {
+            #symptoms {
+                .download-checklist {
+                    .right {
+                        .j-blk-btn-sec {
+                            .j-btn {
+                                a {
+                                    padding: 15px;
+                                    font-size: 10px;
+                                    line-height: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

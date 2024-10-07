@@ -1,0 +1,1396 @@
+section.about-xifaxan-banner {
+    background: url('/siteassets/img/banner-1920x847-home-xifaxan-he-overlay.webp'), url('/siteassets/img/banner-1920x652-about-xifaxan.webp');
+    background-size: 100% 100%, cover;
+    background-position: left, center;
+    background-repeat: no-repeat, no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-bottom: 20px solid #838915;
+
+
+
+
+    .banner-quote-mark {
+        position: absolute;
+        background-color: white;
+        width: 353px;
+        top: 23%;
+        right: 0;
+        padding: 18px 30px 18px 60px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        clip-path: polygon(30px 0, 100% 0, 100% 100%, 0 100%);
+        opacity: 0.9;
+
+
+        p {
+            font-size: 20px;
+            line-height: 28px;
+            color: #0059B4;
+            font-family: $Raleway;
+            font-weight: 900;
+            font-style: italic;
+            letter-spacing: 1px;
+
+
+            span {
+                line-height: 26px;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .banner-content {
+        margin-top: 85px;
+        padding: 0;
+
+
+        h1 {
+            font-size: 36px;
+            line-height: 40px;
+            color: white;
+            font-family: $Raleway;
+            font-weight: 700;
+            padding-bottom: 30px;
+            border-bottom: 1px solid white;
+            text-transform: uppercase;
+            max-width: 500px;
+
+            span {
+                text-transform: none;
+            }
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 27px;
+            color: white;
+            font-family: $Raleway;
+            font-weight: 500;
+            margin-top: 30px;
+            margin-bottom: 53px;
+            max-width: 500px;
+
+            a {
+                color: white;
+                text-decoration: underline;
+            }
+        }
+
+
+        .learn-more {
+            margin-bottom: 85px;
+
+            a {
+                font-size: 22px;
+                line-height: 26px;
+                color: #0073B9;
+                font-family: $Raleway;
+                font-weight: 700;
+                background: white;
+                border: 2px solid #838915;
+                padding: 20px 50px;
+                border-radius: 10px;
+                text-decoration: none;
+
+                &:hover {
+                    color: white;
+                    background: #838915;
+                }
+            }
+        }
+    }
+}
+
+section.what-and-how {
+    background: #0073B9;
+    padding-top: 108px;
+    position: relative;
+    padding-bottom: 80px;
+
+    #what-how-xifaxan {
+        .what-is-xifaxan {
+            margin-bottom: 82px;
+
+            .left {
+                img {
+                }
+            }
+
+            .right {
+                h2 {
+                    font-size: 48px;
+                    line-height: 57px;
+                    color: white;
+                    font-family: $Raleway;
+                    font-weight: 700;
+                    background: #838915;
+                    margin-bottom: 30px;
+                    position: relative;
+                    padding: 25px 50px;
+                    max-width: 525px;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        left: -1px;
+                        bottom: -1px;
+                        height: 20px;
+                        width: 35px;
+                        background-color: #0073B9;
+                    }
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        right: -1px;
+                        top: -1px;
+                        height: 14px;
+                        width: 42px;
+                        background-color: #0073B9;
+                    }
+                }
+
+                h4 {
+                    font-size: 30px;
+                    line-height: 36px;
+                    color: white;
+                    font-family: $Raleway;
+                    font-weight: 700;
+                    margin-bottom: 35px;
+                }
+
+                p {
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: white;
+                    font-family: $Raleway;
+                    font-weight: 500;
+                    margin-bottom: 35px;
+                }
+            }
+        }
+
+        .how-xifaxan-works {
+            .right {
+                img {
+                    width: 525px;
+                    position: absolute;
+                    z-index: 7;
+                }
+            }
+
+            .left {
+                h2 {
+                    font-size: 48px;
+                    line-height: 57px;
+                    color: white;
+                    font-family: $Raleway;
+                    font-weight: 700;
+                    background: #838915;
+                    margin-bottom: 30px;
+                    padding: 25px 50px;
+                    max-width: 575px;
+                    position: relative;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        left: -1px;
+                        bottom: -1px;
+                        height: 25px;
+                        width: 37px;
+                        background-color: #0073B9;
+                    }
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        right: -1px;
+                        top: -1px;
+                        height: 16px;
+                        width: 62px;
+                        background-color: #0073B9;
+                    }
+                }
+
+                h4 {
+                    font-size: 30px;
+                    line-height: 36px;
+                    color: white;
+                    font-family: $Raleway;
+                    font-weight: 700;
+                    margin-bottom: 35px;
+                }
+
+                p {
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: white;
+                    font-family: $Raleway;
+                    font-weight: 500;
+                    margin-bottom: 35px;
+                }
+            }
+        }
+    }
+}
+
+section.effects-how-take-guideline-xifaxan {
+    background: url('/siteassets/img/img-2059x1532-bubble-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -70px;
+    padding-top: 140px;
+
+    .effects-of-xifaxan {
+
+
+        h2 {
+            font-size: 48px;
+            line-height: 57px;
+            color: white;
+            font-family: $Raleway;
+            font-weight: 700;
+            background: #838915;
+            margin-bottom: 30px;
+            padding: 25px 50px;
+            max-width: 550px;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: -1px;
+                bottom: -1px;
+                height: 25px;
+                width: 37px;
+                background-color: #F3F3F3;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                right: -1px;
+                top: -1px;
+                height: 16px;
+                width: 62px;
+                background-color: #F3F3F3;
+            }
+        }
+
+        .left {
+            h4 {
+                font-size: 30px;
+                line-height: 36px;
+                color: #0073B9;
+                font-family: $Raleway;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 24px;
+                color: #4D4D4D;
+                font-family: $Raleway;
+                font-weight: 500;
+                max-width: 710px;
+                margin-bottom: 15px;
+            }
+
+            .percentage-sections {
+                display: flex;
+                justify-content: space-between;
+                width: 90%;
+
+                .fifty-eight-percent, .fifty-percent {
+                    width: 42%;
+
+                    .block-1 {
+                        background: #29ABE2;
+                        width: 100%;
+                        text-align: center;
+                        padding-bottom: 50px;
+                        position: relative;
+                        clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+                        margin-bottom: 12px;
+                        display: block;
+
+
+                        .blk-img {
+                            width: 100%;
+                            float: unset;
+                            padding-top: 18px;
+
+                            img {
+                                width: 113px;
+                            }
+                        }
+
+                        .blk-para {
+                            width: 100%;
+
+                            .para-bg {
+                                p {
+                                    &:nth-child(1) {
+                                        font-size: 15px;
+                                        line-height: 18px;
+                                        color: white;
+                                        font-family: $Raleway;
+                                        font-weight: 900;
+                                        padding: 0 30px;
+                                    }
+
+                                    &:nth-child(2) {
+                                        font-size: 70px;
+                                        line-height: 85px;
+                                        color: white;
+                                        font-family: $Raleway;
+                                        font-weight: 900;
+                                    }
+
+                                    &:nth-child(3) {
+                                        font-size: 15px;
+                                        line-height: 18px;
+                                        color: white;
+                                        font-family: $Raleway;
+                                        font-weight: 500;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    h5, p {
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #0073B9;
+                        font-family: $Raleway;
+                        font-weight: 700;
+                        text-align: center;
+                    }
+
+                    p {
+                        color: #4D4D4D;
+                        font-weight: 500;
+
+                        span {
+                            font-weight: 900;
+                        }
+                    }
+                }
+            }
+        }
+
+        .right {
+            h4 {
+                font-size: 30px;
+                line-height: 36px;
+                color: #0073B9;
+                font-family: $Raleway;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 24px;
+                color: #4D4D4D;
+                font-family: $Raleway;
+                font-weight: 500;
+                margin-bottom: 20px;
+
+                a {
+                    font-weight: 700;
+                    color: #0073B9;
+                }
+            }
+
+            ul {
+                margin-bottom: 15px;
+
+                li {
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #0073B9;
+                    font-family: $Raleway;
+                    font-weight: 500;
+                    list-style: disc inside;
+
+                    &::marker {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .how-to-take-xifaxan-outer {
+        .how-to-take-xifaxan {
+            position: relative;
+
+            .left {
+                display: flex;
+                align-items: center;
+
+                img {
+                    position: absolute;
+                    width: 500px;
+                    left: -50px;
+                }
+            }
+
+            .right {
+                h2 {
+                    font-size: 48px;
+                    line-height: 57px;
+                    color: white;
+                    font-family: $Raleway;
+                    font-weight: 700;
+                    background: #838915;
+                    margin-bottom: 46px;
+                    padding: 30px 50px;
+                    position: relative;
+                    max-width: 600px;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        left: -1px;
+                        bottom: -1px;
+                        height: 21px;
+                        width: 25px;
+                        background-color: #FBFBFB;
+                    }
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        right: -1px;
+                        top: -1px;
+                        height: 15px;
+                        width: 77px;
+                        background-color: #FBFBFB;
+                    }
+                }
+
+                ul {
+                    li {
+                        margin-bottom: 31px;
+                        height: 85px;
+                        display: flex;
+                        align-items: center;
+
+                        .image-side {
+                            img {
+                            }
+                        }
+
+                        .content-side {
+                            p {
+                                font-size: 30px;
+                                line-height: 36px;
+                                color: #0073B9;
+                                font-family: $Raleway;
+                                font-weight: 500;
+
+                                span {
+                                    font-weight: 900;
+                                }
+                            }
+                        }
+
+                        span {
+
+
+                            &.x2 {
+                            }
+                        }
+
+                        &:nth-child(1) {
+                            .image-side {
+                                display: flex;
+                                margin-right: 40px;
+
+                                img {
+                                    width: 40px;
+                                }
+
+                                .x2 {
+                                    font-size: 49px;
+                                    line-height: 58px;
+                                    color: #828914;
+                                    font-family: $Raleway;
+                                    font-weight: 600;
+                                    margin-left: 10px;
+                                    margin-top: 23px;
+                                }
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            .image-side {
+                                margin-right: 58px;
+
+                                img {
+                                    width: 73px;
+                                }
+                            }
+                        }
+
+                        &:nth-child(3) {
+                            .image-side {
+                                margin-right: 48px;
+
+                                img {
+                                    width: 85px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .xifaxan-guideline {
+        padding-top: 118px;
+        padding-bottom: 162px;
+
+        h2 {
+            font-size: 48px;
+            line-height: 57px;
+            color: white;
+            font-family: $Raleway;
+            font-weight: 700;
+            background: #838915;
+            margin-bottom: 28px;
+            padding: 30px 50px;
+            position: relative;
+            max-width: 1025px;
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: -1px;
+                bottom: -1px;
+                height: 21px;
+                width: 25px;
+                background-color: #FBFBFB;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                right: -1px;
+                top: -1px;
+                height: 15px;
+                width: 570px;
+                background-color: #FBFBFB;
+            }
+        }
+
+        h4 {
+            font-size: 30px;
+            line-height: 36px;
+            color: #0073B9;
+            font-family: $Raleway;
+            font-weight: 700;
+            margin-bottom: 12px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 24px;
+            color: #4D4D4D;
+            font-family: $Raleway;
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+    }
+
+    .prescribed-question-xifaxan {
+        .prescribed-still-row {
+            display: flex;
+            background: #0073B9;
+
+            .prescribed-column {
+                width: 60%;
+
+                .prescribed {
+                    padding: 64px 25px 85px 55px;
+
+                    h2 {
+                        font-size: 32px;
+                        line-height: 38px;
+                        color: white;
+                        font-family: $Raleway;
+                        font-weight: 700;
+                        margin-bottom: 30px;
+                    }
+
+                    .download-guide-copay {
+                        display: flex;
+
+                        .download-guide {
+                            .container {
+                                padding: 0 10px;
+
+
+
+                                .download-guide-row {
+                                    .left {
+                                        padding-left: 0;
+
+                                        img {
+                                        }
+                                    }
+
+                                    .right {
+                                        p {
+                                            font-size: 20px;
+                                            line-height: 24px;
+                                            color: white;
+                                            font-family: $Raleway;
+                                            font-weight: 500;
+                                            margin-bottom: 35px;
+                                        }
+
+                                        .j-blk-btn-sec {
+                                            margin-bottom: 0;
+
+                                            .j-btn {
+                                                a {
+                                                    font-size: 18px;
+                                                    line-height: 21px;
+                                                    color: #0073B9;
+                                                    font-family: $Raleway;
+                                                    font-weight: 700;
+                                                    background: white;
+                                                    border: 2px solid #838915;
+                                                    border-radius: 12px;
+                                                    margin-right: 0;
+                                                    padding: 15px 20px;
+                                                    position: absolute;
+
+                                                    &:hover {
+                                                        color: white;
+                                                        background: #838915;
+                                                    }
+
+                                                    .j-btn-icon {
+                                                        display: none;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .download-copay {
+
+                            #download-copay-img-con {
+                                margin-bottom: 64px;
+
+                                .container {
+                                    padding: 0 10px;
+
+                                    .block1 {
+                                        .blk-container {
+                                            .block-1 {
+                                                .blk-img {
+                                                    img {
+                                                    }
+                                                }
+
+                                                .blk-para {
+                                                    .para-bg {
+                                                        p {
+                                                            font-size: 20px;
+                                                            line-height: 24px;
+                                                            color: white;
+                                                            font-family: $Raleway;
+                                                            font-weight: 500;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            a {
+                                font-size: 18px;
+                                line-height: 21px;
+                                color: #0073B9;
+                                font-family: $Raleway;
+                                font-weight: 700;
+                                background: white;
+                                border: 2px solid #838915;
+                                border-radius: 12px;
+                                margin-right: 0;
+                                padding: 15px 20px;
+                                margin-left: 35px;
+
+                                &:hover {
+                                    color: white;
+                                    background: #838915;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .still-column {
+                width: 43%;
+
+                #still-have-questions-outer {
+                    background: #00569B;
+
+                    .container {
+                        padding: 0 12px;
+
+                        .still-have-questions {
+                            padding: 50px 0 41px 31px;
+                            position: relative;
+
+                            .left {
+                                h2 {
+                                    font-size: 28px;
+                                    line-height: 38px;
+                                    color: white;
+                                    font-family: $Raleway;
+                                    font-weight: 900;
+                                    margin-bottom: 12px;
+                                    background: #838915;
+                                    padding: 10px 8px 10px 20px;
+                                    position: relative;
+                                    max-width: 560px;
+
+                                    &::before {
+                                        content: '';
+                                        position: absolute;
+                                        left: -1px;
+                                        bottom: -1px;
+                                        height: 16px;
+                                        width: 9px;
+                                        background-color: #00569B;
+                                    }
+
+                                    &::after {
+                                        content: '';
+                                        position: absolute;
+                                        right: -1px;
+                                        top: -1px;
+                                        height: 8px;
+                                        width: 101px;
+                                        background-color: #00569B;
+                                    }
+                                }
+
+                                p {
+                                    font-size: 20px;
+                                    line-height: 24px;
+                                    color: white;
+                                    font-family: $Raleway;
+                                    font-weight: 500;
+
+                                    a {
+                                        color: white;
+                                        font-weight: 700;
+                                        text-decoration: underline;
+                                    }
+                                }
+
+                                .j-blk-btn-sec {
+                                    margin-bottom: 0;
+
+                                    .j-btn {
+                                        a {
+                                            font-size: 18px;
+                                            line-height: 21px;
+                                            color: #0073B9;
+                                            font-family: $Raleway;
+                                            font-weight: 700;
+                                            background: white;
+                                            border: 2px solid #838915;
+                                            border-radius: 12px;
+                                            margin-right: 0;
+                                            padding: 15px 20px;
+                                            margin-top: 40px;
+
+                                            &:hover {
+                                                color: white;
+                                                background: #838915;
+                                            }
+
+                                            .j-btn-icon {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .right {
+                                img {
+                                    position: absolute;
+                                    right: 0;
+                                    width: 330px;
+                                    bottom: -5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    section.about-xifaxan-banner {
+        background: url('/siteassets/img/banner-320x289-about-xifaxan.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 289px;
+        border-bottom: none;
+
+        .banner-quote-mark {
+            padding: 9px 9px 9px 30px;
+            width: 160px;
+
+
+            p {
+                font-size: 8px;
+                line-height: 11px;
+
+
+                span {
+                }
+            }
+        }
+    }
+
+    section.about-xifaxan-banner-mobile {
+        background: #0074BF;
+        border-bottom: 12px solid #838915;
+
+        .banner-content {
+            padding-top: 21px;
+            padding-bottom: 33px;
+
+            h1 {
+                font-size: 18px;
+                line-height: 24px;
+                color: white;
+                font-family: $Raleway;
+                font-weight: 900;
+                padding-bottom: 20px;
+                border-bottom: 1px solid white;
+                text-transform: uppercase;
+
+                span {
+                    font-weight: 300;
+                }
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 18px;
+                color: white;
+                font-family: $Raleway;
+                font-weight: 500;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                a{
+                    color: white;
+                    text-decoration: underline;
+                }
+            }
+
+
+            .learn-more {
+                margin-bottom: 23px;
+                text-align: center;
+
+                a {
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #0073B9;
+                    font-family: $Raleway;
+                    font-weight: 700;
+                    background: white;
+                    border: 2px solid #838915;
+                    padding: 10px 50px;
+                    border-radius: 10px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    section.what-and-how {
+        padding-top: 45px;
+        padding-bottom: 290px;
+
+        #what-how-xifaxan {
+            .what-is-xifaxan {
+                margin-bottom: 0;
+
+                .left {
+                    img {
+                    }
+                }
+
+                .right {
+                    h2 {
+                        font-size: 21px;
+                        line-height: 24px;
+                        margin-bottom: 25px;
+                        padding: 10px 16px;
+                        max-width: 215px;
+                        margin-top: 30px;
+
+                        &:before, &:after {
+                            content: none;
+                        }
+                    }
+
+                    h4 {
+                        font-size: 18px;
+                        line-height: 18px;
+                        margin-bottom: 25px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 18px;
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+
+            .how-xifaxan-works {
+                flex-direction: column-reverse;
+
+                .right {
+
+                    img {
+                        max-width: 283px;
+                    }
+                }
+
+                .left {
+                    h2 {
+                        font-size: 21px;
+                        line-height: 24px;
+                        margin-bottom: 25px;
+                        padding: 10px 16px;
+                        max-width: 245px;
+
+                        &:before, &:after {
+                            content: none;
+                        }
+                    }
+
+                    h4 {
+                        font-size: 18px;
+                        line-height: 18px;
+                        margin-bottom: 25px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 18px;
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    section.effects-how-take-guideline-xifaxan {
+        .effects-of-xifaxan {
+            h2 {
+                font-size: 21px;
+                line-height: 24px;
+                padding: 10px 22px;
+                max-width: 240px;
+
+                &:before, &:after {
+                    content: none;
+                }
+            }
+
+            .left {
+                h4 {
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 18px;
+                    margin-bottom: 35px;
+                }
+
+                .percentage-sections {
+                    flex-direction: column;
+                    width: 100%;
+
+                    .fifty-eight-percent, .fifty-percent {
+                        width: 100%;
+
+                        .block-1 {
+                            .blk-img {
+                                img {
+                                }
+                            }
+
+                            .blk-para {
+                                .para-bg {
+                                    p {
+                                        margin-bottom: 0;
+
+                                        &:nth-child(1) {
+                                        }
+
+                                        &:nth-child(2) {
+                                        }
+
+                                        &:nth-child(3) {
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        h5, p {
+                        }
+
+                        p {
+                            span {
+                            }
+                        }
+                    }
+                }
+            }
+
+            .right {
+                h4 {
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 18px;
+
+                    a {
+                    }
+                }
+
+                ul {
+                    li {
+                        font-size: 16px;
+                        line-height: 18px;
+
+                        &::marker {
+                        }
+                    }
+                }
+            }
+        }
+
+        .how-to-take-xifaxan-outer {
+            .how-to-take-xifaxan {
+                flex-direction: column-reverse;
+
+                .left {
+                    img {
+                        position: unset;
+                        width: 100%;
+                    }
+                }
+
+                .right {
+                    h2 {
+                        font-size: 21px;
+                        line-height: 24px;
+                        padding: 10px 22px;
+                        max-width: 260px;
+
+                        &:before, &:after {
+                            content: none;
+                        }
+                    }
+
+                    ul {
+                        li {
+                            flex-direction: column;
+                            height: unset;
+
+                            .image-side {
+                                margin-bottom: 12px;
+                                img {
+                                }
+
+                                .x2 {
+                                }
+                            }
+
+                            .content-side {
+                                p {
+                                    font-size: 18px;
+                                    line-height: 20px;
+
+                                    span {
+                                    }
+                                }
+                            }
+
+                            span {
+                                &.x2 {
+                                }
+                            }
+
+                            &:nth-child(1) {
+                                .image-side {
+                                    img {
+                                    }
+
+                                    .x2 {
+                                    }
+                                }
+                            }
+
+                            &:nth-child(2) {
+                                .image-side {
+                                    img {
+                                    }
+                                }
+                            }
+
+                            &:nth-child(3) {
+                                .image-side {
+                                    img {
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .xifaxan-guideline {
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+            h2 {
+                font-size: 21px;
+                line-height: 24px;
+                padding: 10px 22px;
+                max-width: 260px;
+
+                &:before {
+                    height: 24px;
+                    width: 7px;
+                }
+
+                &:after {
+                    height: 24px;
+                    width: 22px;
+                }
+            }
+
+            h4 {
+                font-size: 18px;
+                line-height: 20px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 18px;
+            }
+        }
+
+        .prescribed-question-xifaxan {
+            .prescribed-still-row {
+                flex-direction: column;
+
+                .prescribed-column {
+                    width: 100%;
+
+                    .prescribed {
+                        padding: 24px 12px 44px 12px;
+
+                        h2 {
+                            font-size: 21px;
+                            line-height: 24px;
+                        }
+
+                        .download-guide-copay {
+                            flex-direction: column;
+
+                            .download-guide {
+                                .container {
+                                    .download-guide-row {
+
+                                        .left {
+                                            padding-left: 12px;
+                                            text-align: center;
+                                            margin-bottom: 23px;
+
+                                            img {
+                                                width: 142px;
+                                            }
+                                        }
+
+                                        .right {
+                                            p {
+                                                font-size: 16px;
+                                                line-height: 18px;
+                                            }
+
+                                            .j-blk-btn-sec {
+                                                justify-content: center;
+
+                                                .j-btn {
+                                                    a {
+                                                        position: unset;
+
+                                                        .j-btn-icon {
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .download-copay {
+                                #download-copay-img-con {
+                                    .container {
+                                        .block1 {
+                                            .blk-container {
+                                                .block-1 {
+                                                    flex-direction: column;
+
+                                                    .blk-img {
+                                                        width: 100%;
+
+                                                        img {
+                                                        }
+                                                    }
+
+                                                    .blk-para {
+                                                        width: 100%;
+
+                                                        .para-bg {
+                                                            padding: 0;
+
+                                                            p {
+                                                                font-size: 16px;
+                                                                line-height: 18px;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                a {
+                                    margin-left: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .still-column {
+                    width: 100%;
+
+                    #still-have-questions-outer {
+                        .container {
+                            .still-have-questions {
+                                padding: 12px 0 0 12px;
+                                flex-direction: column-reverse;
+
+                                .left {
+                                    h2 {
+                                        font-size: 21px;
+                                        line-height: 24px;
+                                        max-width: 250px;
+
+                                        &:before, &:after {
+                                            content: none;
+                                        }
+                                    }
+
+                                    p {
+                                        font-size: 16px;
+                                        line-height: 18px;
+
+                                        a {
+                                        }
+                                    }
+
+                                    .j-blk-btn-sec {
+                                        .j-btn {
+                                            a {
+                                                .j-btn-icon {
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .right {
+                                    padding: 0;
+                                    img {
+                                        position: unset;
+                                        margin-bottom: -4px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    section.what-and-how {
+            #what-how-xifaxan {
+                .how-xifaxan-works {
+                    .right {
+                        img {
+                            width: 372px;
+                        }
+                    }
+                }
+            }
+        }
+    
+
+}
